@@ -2,7 +2,7 @@ import React from "react";
 
 function CribsData(props) {
   return (
-      <div class="col">
+      <div className="col">
       <div className="card ">
         <img
           className="card-img-top"
