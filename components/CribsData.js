@@ -4,6 +4,7 @@ function CribsData(props) {
   return (
       <div className="col">
       <div className="card ">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           className="card-img-top"
           width="200"

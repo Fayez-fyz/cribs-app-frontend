@@ -89,6 +89,7 @@ const Cribs = () => {
     if (state && state.token) {
       GetData();
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [state && state.token]);
 
   return (
@@ -164,6 +165,7 @@ const Cribs = () => {
       </div>
         </Modal>
         {loading ? (
+          // eslint-disable-next-line @next/next/no-img-element
           <img
             src="https://media4.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif?cid=ecf05e47a3p0udgs59ya5nzo9fy2sirdmd88v3sgc322j1mm&rid=giphy.gif&ct=g"
             alt="loading"

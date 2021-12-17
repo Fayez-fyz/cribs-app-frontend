@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }) {
     <UserProvider>
       <Head>
         
+         {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link rel="stylesheet" href="/css/styles.css" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <title>Cribs App</title>
