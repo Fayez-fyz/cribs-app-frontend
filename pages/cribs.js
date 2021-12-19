@@ -130,7 +130,7 @@ const Cribs = () => {
             {crt == "create" && (
               <>
                 <Modal
-                  title="Create/Edit"
+                  title="Create"
                   visible={okcr}
                   onCancel={() => {
                     setokcr(false);
@@ -181,7 +181,7 @@ const Cribs = () => {
             {upt == "update" && (
               <>
                 <Modal
-                  title="Create/Edit"
+                  title="Edit"
                   visible={okup}
                   onCancel={() => {
                     setokup(false);
