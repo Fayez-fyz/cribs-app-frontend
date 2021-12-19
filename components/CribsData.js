@@ -23,7 +23,7 @@ function CribsData(props) {
             <button
               className="btn btn-outline-primary mx-2 "
               onClick={() =>{
-                props.setok(true)
+                props.setokup(true)
                 props.edit(props.id, props.name, props.pic, props.location)}
                 
               }
